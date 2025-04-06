@@ -218,18 +218,6 @@ public class CPHmock : IInlineInvokeProxy
 
     private record Config
     {
-        public string? snifferIp { get; set; }
-        public string? snifferPort { get; set; }
-        public string? menuScene { get; set; }
-        public string? songScenes { get; set; }
-        public string? pauseScene { get; set; }
-        public string? blackList { get; set; }
-        public string? behavior { get; set; }
-        public string? switchScenes { get; set; }
-        public string? songSceneAutoSwitchMode { get; set; }
-        public string? sceneSwitchPeriod { get; set; }
-        public string? sceneSwitchCooldownPeriod { get; set; }
-        public string? sectionActions { get; set; }
         public string? logLevel { get; set; }
         public string? logLevelSB { get; set; }
        
